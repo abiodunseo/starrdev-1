@@ -13,7 +13,11 @@ export default function Home() {
       <main>
       <section className="hero right">
         <h2>Step Into The Next Generation</h2>
-        <img
+        <Image
+        layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100}
           src="/undraw_work_together_h63l.svg"
           alt="Step Into The Next Generation"
         />
@@ -30,8 +34,11 @@ export default function Home() {
           <h2>About us</h2>
           <h3>Who we are</h3>
         </hgroup>
-        <img src="/undraw_team_spirit_hrr4.svg" alt="Who we are" />
-        <div>
+        <Image  src="/undraw_team_spirit_hrr4.svg" alt="Who we are" 
+        layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100}/>
           <p>
             As you can see, we&apos;re a digitial agency. But not just any other
             agency.
@@ -42,11 +49,14 @@ export default function Home() {
             the people all around the world.
           </p>
         </div>
-        <a href="/about">Learn More →</a>
+        <Link href="/about">Learn More →</Link>
       </section>
       <section className="skills">
         <div>
-          <img src="/undraw_design_sprint_x3eb.svg" alt="Web Design" />
+          <Image  layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_design_sprint_x3eb.svg" alt="Web Design" />
           <h4>Web Design</h4>
           <p>
             We develop distinctive websites that will leave the users with the
@@ -54,7 +64,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <img
+          <Image layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100}
             src="/undraw_progressive_app_m9ms.svg"
             alt="Web Development"
           />
@@ -65,7 +78,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <img src="/undraw_abstract_x68e.svg" alt="Branding" />
+          <Image  layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_abstract_x68e.svg" alt="Branding" />
           <h4>Branding</h4>
           <p>
             We can assist you to be unique, to be conspicuous, and to be
@@ -73,7 +89,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <img src="/undraw_fitting_piece_iilo.svg" alt="SEO" />
+          <Image layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_fitting_piece_iilo.svg" alt="SEO" />
           <h4>SEO</h4>
           <p>
             We develop distinctive websites that will leave the users with the
@@ -81,7 +100,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <img src="/undraw_process_e90d.svg" alt="UX / UI Design" />
+          <Image layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_process_e90d.svg" alt="UX / UI Design" />
           <h4>UX / UI Design</h4>
           <p>
             We develop distinctive websites that will leave the users with the
@@ -89,7 +111,10 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <img src="/undraw_noted_pc9f.svg" alt="Content Writing" />
+          <Image  layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_noted_pc9f.svg" alt="Content Writing" />
           <h4>Content Writing</h4>
           <p>
             This content can include sales copy, e-books, podcasts, and text for
@@ -110,7 +135,10 @@ export default function Home() {
             pretty simple.
           </p>
         </div>
-        <img src="/undraw_master_plan_95wa.svg" alt="Who we are" />
+        <Image layout="responsive"
+        objectFit="cover"
+        height={100}
+        width={100} src="/undraw_master_plan_95wa.svg" alt="Who we are" />
         <div className="counter">
           <div>
             <p>Projects</p>
